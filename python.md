@@ -1,3 +1,9 @@
+![](/Volumes/Code/python/images/编码规范.png)
+
+![](/Volumes/Code/python/images/命名规范.png)
+
+
+
 操作系统（operating system）
 
 图形用户界面（Graphical User Interface, GUI）
