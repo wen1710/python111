@@ -584,3 +584,8 @@ math.pow(10,30)
 
 在 tstp 文件夹中，再新建一个名为 project.py 的文件。将如下代码添加到
 project.py 中并保存文件： 
+
+
+
+test
+
