@@ -1,6 +1,6 @@
-![](/Volumes/Code/python/images/编码规范.png)
+![](./images/编码规范.png)
 
-![](/Volumes/Code/python/images/命名规范.png)
+![](./images/命名规范.png)
 
 
 
@@ -93,6 +93,8 @@ Python 将数据划分成不同的类别，即数据类型（ data type）。
 数据类型为 bool 的对象被称为布尔值（ boolean），仅有 True 和 False 两个值。 
 
 数据类型为 NoneType 的对象，其值永远为 None，用来表示数据缺失。 
+
+![](./images/转换函数.png)
 
 ##### 常量和变量
 
@@ -212,7 +214,7 @@ Python 中有两类语句： 简单语句（simple statement） 和复合语句�
 
 函数（ function）：可接受输入，执行指令并返回输出的复合语句。通过函数，我们可以在程序中定义功能，并重复使用。 
 
-![](C:\Users\Administrator\Desktop\python\images\function.png)
+![](.\images\function.png)
 
 调用（ call）一个函数，意味着为函数提供执行指令并返回输出所需的输入。函数的每一个输入就是一个参数（ parameter）。当你为函数提供参数时，则被称为“函数传参”。 
 
@@ -241,6 +243,8 @@ Python 编程语言中自带了一个被称为内置函数（ builtin function�
 内置函数type()可以返回变量类型
 
 内置函数id()可以获取变量的内存地址
+
+str（） int（）
 
 
 
@@ -361,7 +365,7 @@ def add (x, y):
 
 列表（ list）是以固定顺序保存对象的容器 。
 
-![](C:\Users\Administrator\Desktop\python\images\list.png)
+![](.\images\list.png)
 
 ```python
 #创建一个空列表
@@ -429,7 +433,7 @@ my_tuple = ("Jackson", 1987, True)
 
 字典（ dictionary）是另一种用于存储对象的内置容器。它们被用来链接键（ key）和值（ value）这两个对象（如图 5-2 所示）。将一个对象链接至另一个对象，也被称为映射（ mapping），结果为产生一个键值对（ key-value pair）。可将键值对添加到字典，然后使用键在字典中查询，可获得其对应的值。但是无法使用值来查询键。 
 
-![](C:\Users\Administrator\Desktop\python\images\dictionary.png)
+![](\images\dictionary.png)
 
 字典是可变的，因此可以向字典中新增键值对。与列表和元组不同，字典中存储的对象是无序的。字典的价值在于键与值之间的关联。 
 
@@ -473,7 +477,7 @@ for 循环：一种用来遍历可迭代对象的循环。这个过程被称为�
 
 可使用语法"for [变量名] in [可迭代对象名]: [指令]"定义 for 循环，其中[变量名]是计划赋给可迭代对象中每个元素值的变量名称， [指令]是每次循环要执行的代码。 
 
-![](C:\Users\Administrator\Desktop\python\images\for.png)
+![](.\images\for.png)
 
 ```python
 for i in [1,2,3,4,5]:
